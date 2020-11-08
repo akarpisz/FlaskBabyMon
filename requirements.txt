@@ -31,6 +31,7 @@ entrypoints==0.3
 filelock==3.0.12
 Flask==1.1.2
 grpcio==1.16.1
+gunicorn==20.0.4
 html5lib==1.0.1
 httplib2==0.14.0
 idna==2.8
@@ -88,6 +89,7 @@ pyrsistent==0.15.5
 pyserial==3.4
 python-apt==2.0.0+ubuntu0.20.4.1
 python-debian===0.1.36ubuntu1
+python-dotenv==0.15.0
 python-xapp==2.0.1
 python-xlib==0.23
 pythondialog==3.5.1
