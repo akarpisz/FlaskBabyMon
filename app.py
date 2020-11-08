@@ -20,6 +20,14 @@ def index():
 @app.route("/api/<state>",methods=["POST"])
 def powerState(state):
     print(state)
+    if state == "off":
+        os.system("shutdown now")
+        
+        return 'OK',200
+    elif state == "reboot":
+        os.system("reboot now")
+
+        return 'OK',200
     return state
 
 
